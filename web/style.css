@@ -1,0 +1,34 @@
+html{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 38px;
+    text-align: center;
+}
+.timetable{
+    background-color:lightcyan;
+    
+}
+
+#timetabletitle{
+    background-color: lightpink;
+}
+
+.special{
+    color:rebeccapurple;
+    font-size: 25px;
+    
+}
+
+.picture{
+    text-align: center;
+}
+.info{
+    color:brown;
+}
