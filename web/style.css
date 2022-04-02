@@ -55,14 +55,13 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around;
-
+    justify-content: space-between;
     padding: 50px 50px 50px 50px;
 }
 
 .proizvod{
    
     background-color: red;
-    
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
