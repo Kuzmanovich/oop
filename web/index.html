@@ -1,20 +1,22 @@
 <!doctype html>
 
 <head>
-<meta charset="utf-8">
-	<title>Ribarnica</title>
+    <meta charset="utf-8">
+    <title>Ribarnica</title>
 
-	
-	<link rel="shortcut icon" type="image/png" href="favicon.png" />
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="main.js"></script>
 
     <!--- Fontovi --->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <!--------------->
-	
+
 </head>
 
 <body>
@@ -27,41 +29,81 @@
             <li class="active"><a href="index.html" class="active">Pocetna</a></li>
             <li><a href="prodaja.html">Prodaja</a></li>
             <li><a href="lokacije.html">Lokacije</a></li>
-            <li><a href ="onama.html">O nama</a></li>
+            <li><a href="onama.html">O nama</a></li>
         </ul>
 
         <hr>
 
         <h1 class="title">Ribarnica</h1>
 
+        <p>Vreme: <span id="time"></span></p>
+        <p>Datum: <span id="date"></span></p>
+
+        <script>
+            function updateTime() {
+                var currentTime = new Date()
+                var hours = currentTime.getHours()
+                var minutes = currentTime.getMinutes()
+
+                if (minutes < 10) {
+                    minutes = "0" + minutes
+                }
+                var time = hours + ":" + minutes + " ";
+                
+                document.getElementById('time').innerHTML = time;
+            }
+            setInterval(updateTime, 1000);
+
+            function updateDate() {
+                var currentDate = new Date()
+                var day = currentDate.getDay()
+                var month = currentDate.getMonth()
+                var year = currentDate.getFullYear();
+
+                if(day < 10){
+                    day = "0" + day;
+                }
+
+                if(month < 10){
+                    month = "0" + month;
+                }
+
+                var date = day + "/" + month + "/" + year;
+                
+                document.getElementById('date').innerHTML = date;
+            }
+            setInterval(updateDate, 1000);
+        </script>
+
         <br>
     </header>
     <section>
-        
+
         <div class="picture">
             <img src="fish.jpg" width="325" height="245" class="picture">
         </div>
-    
+
         <br>
-    
+
         <div class="info">
             <p>Naziv Ribarnice</p>
             <p>Adresa: Jovana Jovanovica Zmaja 12</p>
             <p>Kontakt telefon: 021 / 928-200</p>
         </div>
-        
+
         <br>
-        
+
         <h3 class="timetable">Radno vreme</h3>
-    
+
         <br>
-    
+
         <hr>
     </section>
-    
+
 
     <footer>
-        Ribarnica | Jovana Jovanovica Zmaja 12 | 021 / 928-200 
+        Ribarnica | Jovana Jovanovica Zmaja 12 | 021 / 928-200
     </footer>
 </body>
+
 </html>
