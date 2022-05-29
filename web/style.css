@@ -95,3 +95,10 @@ ul {
     color: white;
     float: left;
   }
+
+  .div_class{
+    outline: solid 1px black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }

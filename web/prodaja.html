@@ -1,7 +1,9 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Prodaja ribe</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
     </head>
     
     <body>
@@ -15,6 +17,18 @@
             <br>
             <h2>Prodaja Ribe</h2>
             <hr>
+
+            <script>
+                var div=document.createElement("div");
+                div.id="div_id";
+                div.className="div_class";
+                div.style="background-color: green; ";
+                div.style.width="100px";
+                div.style.height="100px";
+                div.innerHTML = Korisnik.ime + " " + Korisnik.prezime;
+    
+                document.body.appendChild(div);
+            </script>
         </header>
     
         <section class="main">
