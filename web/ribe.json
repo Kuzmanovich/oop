@@ -1,0 +1,163 @@
+{
+    "ribe": [
+      {
+        "naziv": "saran",
+        "vrsta": "recna",
+        "kolicina": 10,
+        "izvor":[
+            {"Srbija":{
+                "lokacija":"Zrenjanin",
+                "naziv_firme":"RIBA D.O.O",
+                "kontakt":"contact@riba.rs"
+            }}, 
+            {"Makedonija":{
+                "lokacija":"Ohrid",
+                "naziv_firme":"Ohrid Fish",
+                "kontakt":"info@ohridfish.com"
+            }}, 
+            {"Madjarska":{
+                "lokacija":"Segedin",
+                "naziv_firme":"Hal-Szálka",
+                "kontakt":"fish@szalka.hu"
+            }}],
+        "cena": 860
+      },
+      {
+        "naziv": "tolstolobik",
+        "vrsta": "recna",
+        "kolicina": 5,
+        "izvor":[
+            {"Srbija":{
+                "lokacija":"Zrenjanin",
+                "naziv_firme":"RIBA D.O.O",
+                "kontakt":"contact@riba.rs"
+            }}, 
+            {"Makedonija":{
+                "lokacija":"Ohrid",
+                "naziv_firme":"Ohrid Fish",
+                "kontakt":"info@ohridfish.com"
+            }}
+        ],
+        "cena": 500
+      },
+      {
+        "naziv": "som",
+        "vrsta": "recna",
+        "kolicina": 3,
+        "izvor":[
+            {"Slovenija":{
+                "lokacija":"Maribor",
+                "naziv_firme":"Ribarnica Izola",
+                "kontakt":"info@izola.si"
+            }}, 
+            {"Madjarska":{
+                "lokacija":"Segedin",
+                "naziv_firme":"Hal-Szálka",
+                "kontakt":"fish@szalka.hu"
+            }}, 
+            {"Rumunija":{
+                "lokacija":"Temisvar",
+                "naziv_firme":"Peste proaspat",
+                "kontakt":"contact@pesteproaspat.ro"
+            }}],
+        "cena": 1500
+      },
+      {
+        "naziv": "amur",
+        "vrsta": "recna",
+        "kolicina": 8,
+        "izvor":[
+            {"Rumunija":{
+                "lokacija":"Temisvar",
+                "naziv_firme":"Peste proaspat",
+                "kontakt":"contact@pesteproaspat.ro"
+            }}, 
+            {"Bugarska":{
+                "lokacija":"Sofija",
+                "naziv_firme":"Morski Dar",
+                "kontakt":"riba@morskidar.bg"
+            }}],
+        "cena": 650
+      },
+      {
+        "naziv": "orada",
+        "vrsta": "morska",
+        "kolicina": 2,
+        "izvor":[
+            {"Grčka":{
+                "lokacija":"Solun",
+                "naziv_firme":"Ellada Fish",
+                "kontakt":"fish@elladafish.com"
+            }},
+        
+            {"Turska":{
+                "lokacija":"Istanbul",
+                "naziv_firme":"Turkey Fish",
+                "kontakt":"contact@fish.tr"
+            }} ],
+        "cena": 1250
+      },
+      {
+        "naziv": "brancin",
+        "vrsta": "morska",
+        "kolicina": 7,
+        "izvor":[
+            {"Grčka":{
+                "lokacija":"Solun",
+                "naziv_firme":"Ellada Fish",
+                "kontakt":"fish@elladafish.com"
+            }}
+        ],
+        "cena": 1450
+      }
+    ],
+
+    "Srbija":{
+        "lokacija":"Zrenjanin",
+        "naziv_firme":"RIBA D.O.O",
+        "kontakt":"contact@riba.rs"
+    },
+
+    "Makedonija":{
+        "lokacija":"Ohrid",
+        "naziv_firme":"Ohrid Fish",
+        "kontakt":"info@ohridfish.com"
+    },
+
+    "Madjarska":{
+        "lokacija":"Segedin",
+        "naziv_firme":"Hal-Szálka",
+        "kontakt":"fish@szalka.hu"
+    },
+
+    "Slovenija":{
+        "lokacija":"Maribor",
+        "naziv_firme":"Ribarnica Izola",
+        "kontakt":"info@izola.si"
+    },
+    
+    "Rumunija":{
+        "lokacija":"Temisvar",
+        "naziv_firme":"Peste proaspat",
+        "kontakt":"contact@pesteproaspat.ro"
+    },
+
+    "Bugarska":{
+        "lokacija":"Sofija",
+        "naziv_firme":"Morski Dar",
+        "kontakt":"riba@morskidar.bg"
+    },
+
+    "Grčka":{
+        "lokacija":"Solun",
+        "naziv_firme":"Ellada Fish",
+        "kontakt":"fish@elladafish.com"
+    },
+
+    "Turska":{
+        "lokacija":"Istanbul",
+        "naziv_firme":"Turkey Fish",
+        "kontakt":"contact@fish.tr"
+    }
+
+  }

@@ -102,3 +102,11 @@ ul {
     justify-content: center; 
     align-items: center;
   }
+
+  #prvi{
+      background-color: red;
+  }
+
+  #drugi{
+      background-color: green;
+  }

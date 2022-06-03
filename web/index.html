@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 
     <!--- Fontovi --->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,17 +36,7 @@
 
         <h1 class="title">Ribarnica</h1>
 
-        <script>
-            var div=document.createElement("div");
-            div.id="div_id";
-            div.className="div_class";
-            div.style="background-color: green; ";
-            div.style.width="100px";
-            div.style.height="100px";
-            div.innerHTML = Korisnik.ime + " " + Korisnik.prezime;
-
-            document.body.appendChild(div);
-        </script>
+        <div id="profile"></div>
 
         <p>Vreme: <span id="time"></span></p>
         <p>Datum: <span id="date"></span></p>
@@ -89,6 +79,7 @@
 
         <br>
     </header>
+
     <section>
 
         <div class="picture">
@@ -96,6 +87,14 @@
         </div>
 
         <br>
+
+        <div id="prvi">
+            <p>Tekst 1</p>
+        </div>
+
+        <div id="drugi">
+            <p>Tekst 2</p>
+        </div>
 
         <div class="info">
             <p>Naziv Ribarnice</p>
