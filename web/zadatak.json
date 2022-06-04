@@ -1,48 +1,4 @@
-var Korisnik = {
-    ime: "Darko",
-    prezime: "Kuzmanović",
-    novac: "1200 RSD",
-    printKorisnik: function () {
-        return console.log(Korisnik);
-    }
-}
-
-Korisnik.printKorisnik();
-
-
-function myTest() {
-    console.log("Testiram x = " + x);
-    console.log("Testiram x = ${x}");
-
-    console.log("Novac: ${Korisnik.novac}");
-
-}
-
-var div = document.createElement("div");
-div.id = "div_id";
-div.className = "div_class";
-div.style = "background-color: green; ";
-div.style.width = "100px";
-div.style.height = "100px";
-div.innerHTML = Korisnik.ime + " " + Korisnik.prezime;
-
-var profileDiv = document.getElementById("profile");
-
-profileDiv.appendChild(div);
-
-function text(){
-    document.getElementById("paragraf").innerHTML = `${citati.dt.map(function(citat){return citat.quote })}`;
-}
-
-function createElements(citati){
-    var DrugiDiv = document.getElementById("drugi");
-    var div1 = document.createElement("div");
-    div1.style = "display: inline";
-    div1.innerHTML = `${citati.dt.map(function(citat){return ` <div> ${citat.id + " " + citat.quote + " " + citat.author} </div>` }).join('')}`;
-    DrugiDiv.appendChild(div1);
-}
-
-var citati = {list: "quotes", dt: [
+{list: "quotes", dt: [
     {
         "id": 1,
         "quote": "Life isn’t about getting and having, it’s about giving and being.",
@@ -85,5 +41,3 @@ var citati = {list: "quotes", dt: [
     }
 ]
 }
-
-createElements(citati);
