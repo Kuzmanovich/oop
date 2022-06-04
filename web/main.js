@@ -38,7 +38,7 @@ function createElements(citati){
     var DrugiDiv = document.getElementById("drugi");
     var div1 = document.createElement("div");
     div1.style = "display: inline";
-    div1.innerHTML = `${citati.dt.map(function(citat){return ` <div> ${citat.id + " " + citat.quote + " " + citat.author} </div>` }).join('')}`;
+    div1.innerHTML = `${citati.dt.map(function(citat){return ` <p> ${citat.id + " " + citat.quote + " " + citat.author} </p> <br>` }).join('')}`;
     DrugiDiv.appendChild(div1);
 }
 
