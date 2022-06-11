@@ -42,6 +42,11 @@ function createElements(citati){
     DrugiDiv.appendChild(div1);
 }
 
+function addProduct(string){
+
+    var div = document.getElementById("main");
+    div.innerHTML += `<div class="proizvod"> <p>${string}</p> <img src="fish_product.jpg" width="100px" height="100px"></img> </div>`;
+}
 var citati = {list: "quotes", dt: [
     {
         "id": 1,
